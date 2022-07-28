@@ -1,5 +1,11 @@
 start();
 
+document.addEventListener('keydown', );
+
+function scanKey(event) {
+
+}
+
 function start() {
     const items = document.querySelectorAll('.item');
     const input = document.querySelector('#input');
