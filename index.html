@@ -7,31 +7,30 @@
 </head>
 <body>
   <h1 class="title">Calculator app!</h1>
-  <input type="text" id="input">
+  <input type="text" id="input" readonly>
   <div class="container">
-    <div class="item double-item">C</div>
-    <div class="item operator">%</div>
-    <div class="item operator colored">/</div>
+    <div class="item double-item" data-key="C">C</div>
+    <div class="item operator" data-key="%">%</div>
+    <div class="item operator colored" data-key="/">/</div>
 
-    <div class="item">7</div>
-    <div class="item">8</div>
-    <div class="item">9</div>
-    <div class="item operator colored">x</div>
+    <div class="item" data-key="7">7</div>
+    <div class="item" data-key="8">8</div>
+    <div class="item" data-key="9">9</div>
+    <div class="item operator colored" data-key="x">x</div>
 
-    <div class="item">4</div>
-    <div class="item">5</div>
-    <div class="item">6</div>
-    <div class="item operator colored">-</div>
+    <div class="item" data-key="4">4</div>
+    <div class="item" data-key="5">5</div>
+    <div class="item" data-key="6">6</div>
+    <div class="item operator colored" data-key="-">-</div>
 
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item operator colored">+</div>
+    <div class="item" data-key="1">1</div>
+    <div class="item" data-key="2">2</div>
+    <div class="item" data-key="3">3</div>
+    <div class="item operator colored" data-key="+">+</div>
 
-    <div class="item double-item">0</div>
-    <div class="item">.</div>
-    <div class="item operator colored">=</div>
-
+    <div class="item double-item" data-key="0">0</div>
+    <div class="item" data-key=".">.</div>
+    <div class="item operator colored" data-key="=">=</div>
   </div>
 
 <script src="script.js"></script>

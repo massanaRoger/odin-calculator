@@ -18,6 +18,10 @@ body {
     color: #cc9543;
 }
 
+input {
+    pointer-events: none;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
