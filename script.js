@@ -15,7 +15,8 @@ function start() {
                 updateDispValue = true;
                 resetNext = false;
                 cannotEquals = true;
-            } else if (el.classList.contains('operator')) {
+            } else if (el.textContent === '.' && input.value.indexOf('.') > -1) {}
+            else if (el.classList.contains('operator')) {
                 if (el.textContent === '=') {
                     if (!cannotEquals) {
                         input.value = operate(operation, Number(dispValue), Number(input.value));
