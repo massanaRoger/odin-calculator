@@ -14,10 +14,14 @@ body {
     width: 100%;
 }
 
+.title {
+    color: #cc9543;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 60%;
+    width: 50%;
     height: 60%;
     border: 1px solid black;
 }
